@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/test.css">
 <?php
-echo "hi~~~~"
+echo "hi~~~~laravel-php-test！！！"
 ?>
