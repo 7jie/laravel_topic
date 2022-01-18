@@ -1,5 +1,6 @@
 <title>歷食紀錄</title>
-<link rel="icon" href="t.ico" href="css/test.css" >
+<link href="css/test.css">
+<link rel="icon" href="t.ico" type="image/x-icon">
 <?php
 echo "test";
  ?>
