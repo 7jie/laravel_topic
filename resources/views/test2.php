@@ -2,6 +2,8 @@
      //require_once ("./lib/Smarty.class.php");
     if (file_exists("./lib/Smarty.class.php")){
         echo "hi";
+    }else{
+        echo "no";
     }
     /*
      $smarty = new Smarty();
