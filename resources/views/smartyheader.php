@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__). '/libs/Smarty.class.php');
+require_once(dirname(__FILE__). '/lib/Smarty.class.php');
 
 $smarty = new Smarty();
 $smarty->caching = true;
