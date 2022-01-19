@@ -5,6 +5,7 @@
     }else{
         echo "no";
     }
+    echo "why";
     /*
      $smarty = new Smarty();
      $smarty->assign("title", "測試用的網頁標題");
