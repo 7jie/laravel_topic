@@ -6,5 +6,5 @@ $smarty = new Smarty();
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 $smarty->setTemplateDir(dirname(__FILE__).'/templates');
-$smarty-setCompileDir(dirname(__FILE__).'/templates_c');
+$smarty->setCompileDir(dirname(__FILE__).'/templates_c');
 ?>
