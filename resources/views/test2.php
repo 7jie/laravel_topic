@@ -3,7 +3,7 @@
     if (is_dir("lib")){
         echo "hiiii";
     }else{
-        echo "no";
+        echo "noooo";
     }
     echo "why";
     /*
