@@ -1,11 +1,6 @@
 <?php
      //require_once ("./lib/Smarty.class.php");
-    if (is_dir("lib")){
-        echo "hiiii";
-    }else{
-        echo "noooo";
-    }
-    echo "why";
+     var_dump(scandir('.'));
     /*
      $smarty = new Smarty();
      $smarty->assign("title", "測試用的網頁標題");
