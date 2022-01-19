@@ -1,7 +1,7 @@
 <?php
      //require_once ("./lib/Smarty.class.php");
     if (is_dir("lib")){
-        echo "hi";
+        echo "hiiii";
     }else{
         echo "no";
     }
