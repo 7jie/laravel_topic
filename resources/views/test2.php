@@ -1,6 +1,6 @@
 <?php
      //require_once ("./lib/Smarty.class.php");
-    if (file_exists("./lib/Smarty.class.php")){
+    if (is_dir("lib")){
         echo "hi";
     }else{
         echo "no";
