@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 4.0.4, created on 2022-01-21 06:33:18
+  from 'C:\Users\asus\Desktop\laravel\resources\views\tmplates\index.html' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.0.4',
+  'unifunc' => 'content_61ea53aeb8e912_80068963',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '3d5ea44a8c17df92cdc47ea8d495ca178c30821f' => 
+    array (
+      0 => 'C:\\Users\\asus\\Desktop\\laravel\\resources\\views\\tmplates\\index.html',
+      1 => 1642746779,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_61ea53aeb8e912_80068963 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="css/test.css">
@@ -9,7 +32,8 @@
 
 <body>
 <img src="img/title.svg">
-<!--<p>{$content}</p>-->
+<!--<p><?php echo $_smarty_tpl->tpl_vars['content']->value;?>
+</p>-->
 <div align="center" style="margin:10px" id=login_res>
     <p class="click open">登入</p><p class="click">註冊</p>
 </div>
@@ -99,7 +123,12 @@
 
 </form>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/test.js"></script>
+<?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="js/test.js"><?php echo '</script'; ?>
+>
 </body>
-</html>
+</html><?php }
+}
