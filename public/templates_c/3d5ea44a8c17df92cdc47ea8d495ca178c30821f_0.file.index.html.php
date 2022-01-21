@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.4, created on 2022-01-21 06:33:18
+/* Smarty version 4.0.4, created on 2022-01-21 06:53:22
   from 'C:\Users\asus\Desktop\laravel\resources\views\tmplates\index.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.4',
-  'unifunc' => 'content_61ea53aeb8e912_80068963',
+  'unifunc' => 'content_61ea5862778853_36214446',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3d5ea44a8c17df92cdc47ea8d495ca178c30821f' => 
     array (
       0 => 'C:\\Users\\asus\\Desktop\\laravel\\resources\\views\\tmplates\\index.html',
-      1 => 1642746779,
+      1 => 1642748001,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61ea53aeb8e912_80068963 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61ea5862778853_36214446 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -30,14 +30,15 @@ function content_61ea53aeb8e912_80068963 (Smarty_Internal_Template $_smarty_tpl)
     <title>歷食記錄</title>
 </head>
 
+</head>
 <body>
 <img src="img/title.svg">
 <!--<p><?php echo $_smarty_tpl->tpl_vars['content']->value;?>
 </p>-->
-<div align="center" style="margin:10px" id=login_res>
+<div id=login_res>
     <p class="click open">登入</p><p class="click">註冊</p>
 </div>
-<form id="login" align="center" method="post">
+<form id="login" method="post">
     <div id="t0">
     <div class="t1">
         <div class="t2">
@@ -53,7 +54,7 @@ function content_61ea53aeb8e912_80068963 (Smarty_Internal_Template $_smarty_tpl)
         <div class="t3">
         密碼：
         </div>
-        <div class="t4"><input type="password" placeholder="請輸入密碼"></div>
+        <div class="t4"><input type="text" placeholder="請輸入密碼"></div>
         </div>
     </div>
 

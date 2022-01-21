@@ -9,6 +9,9 @@ height:100%;
 text-align: center;
 background-color: #F4DCAC;
 }
+#login_res{
+    margin-top: 1%;
+}
 .click{
     
     display: inline-block;
@@ -49,8 +52,9 @@ background-color: #F4DCAC;
 .t2{
     text-align: center;
     line-height: 50px;
-    width: 40%;
+    width: 100%;
     margin: auto;
+
 }
 .t3,.t4{
     display: inline-block;
@@ -58,10 +62,11 @@ background-color: #F4DCAC;
 .t3{
     width: 20%;
     text-align: left;
+
 }
 .t4{
-    width: 40%;
-    text-align: left;
+    width: 20%;
+    text-align: right;
 }
 .t3 input,.t4 input{
     width:300px;
@@ -69,6 +74,12 @@ background-color: #F4DCAC;
 }
 #t0{
     margin-top: 3%;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
 
+}
 
+@media screen and (max-width: 960px) {
+    
 }
