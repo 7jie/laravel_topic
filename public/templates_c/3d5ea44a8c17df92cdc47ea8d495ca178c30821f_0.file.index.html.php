@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.4, created on 2022-02-15 14:09:01
+/* Smarty version 4.0.4, created on 2022-02-15 15:46:11
   from 'C:\Users\asus\Desktop\laravel\resources\views\tmplates\index.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.4',
-  'unifunc' => 'content_620bb3fd5fbdb1_40634792',
+  'unifunc' => 'content_620bcac3132b00_09168738',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3d5ea44a8c17df92cdc47ea8d495ca178c30821f' => 
     array (
       0 => 'C:\\Users\\asus\\Desktop\\laravel\\resources\\views\\tmplates\\index.html',
-      1 => 1644934135,
+      1 => 1644939962,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_620bb3fd5fbdb1_40634792 (Smarty_Internal_Template $_smarty_tpl) {
+function content_620bcac3132b00_09168738 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -29,8 +29,8 @@ function content_620bb3fd5fbdb1_40634792 (Smarty_Internal_Template $_smarty_tpl)
     <meta charset="utf-8">
     <title>歷食記錄</title>
 </head>
-
-</head>
+<?php echo '</script'; ?>
+>
 <body>
 <img src="img/title.svg">
 <div id=login_res>
@@ -121,12 +121,17 @@ function content_620bb3fd5fbdb1_40634792 (Smarty_Internal_Template $_smarty_tpl)
 </div>
 
 </form>
-
+<?php echo '<script'; ?>
+ src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"><?php echo '</script'; ?>
+>
 <?php echo '<script'; ?>
  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
- src="js/test.js"><?php echo '</script'; ?>
+ src="js/test2.js"><?php echo '</script'; ?>
 >
 </body>
 </html><?php }

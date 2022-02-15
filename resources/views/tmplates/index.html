@@ -6,12 +6,6 @@
     <meta charset="utf-8">
     <title>歷食記錄</title>
 </head>
-
-<script>
-    const firebaseAdminSdk = require('firebase-admin'),
-    firebaseAdminApp = firebaseAdminSdk.initializeApp({credential: firebaseAdminSdk.credential.cert(
-      JSON.parse(Buffer.from(process.env.GOOGLE_CONFIG_BASE64, 'base64').toString('ascii')))
-});
 </script>
 <body>
 <img src="img/title.svg">
@@ -103,8 +97,9 @@
 </div>
 
 </form>
-
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/test.js"></script>
+<script src="js/test2.js"></script>
 </body>
 </html>
