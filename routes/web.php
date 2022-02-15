@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('welcome');
+    
+});
+Route::get('/add', function () {
     $test=app('firebase.firestore')->database()->collection('Stu')->newDocument();
     $test->set([
         'name'=>'hi100000'
     ]);
     
-});
-Route::get('/add', function () {
-    return view('test2');
 });
