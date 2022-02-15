@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.4, created on 2022-01-21 06:53:22
+/* Smarty version 4.0.4, created on 2022-02-15 14:09:01
   from 'C:\Users\asus\Desktop\laravel\resources\views\tmplates\index.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.4',
-  'unifunc' => 'content_61ea5862778853_36214446',
+  'unifunc' => 'content_620bb3fd5fbdb1_40634792',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3d5ea44a8c17df92cdc47ea8d495ca178c30821f' => 
     array (
       0 => 'C:\\Users\\asus\\Desktop\\laravel\\resources\\views\\tmplates\\index.html',
-      1 => 1642748001,
+      1 => 1644934135,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61ea5862778853_36214446 (Smarty_Internal_Template $_smarty_tpl) {
+function content_620bb3fd5fbdb1_40634792 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -33,8 +33,6 @@ function content_61ea5862778853_36214446 (Smarty_Internal_Template $_smarty_tpl)
 </head>
 <body>
 <img src="img/title.svg">
-<!--<p><?php echo $_smarty_tpl->tpl_vars['content']->value;?>
-</p>-->
 <div id=login_res>
     <p class="click open">登入</p><p class="click">註冊</p>
 </div>
@@ -117,7 +115,7 @@ function content_61ea5862778853_36214446 (Smarty_Internal_Template $_smarty_tpl)
     </div>
     <div class="t1">
         <div class="t2">
-        <input class="btn" type='submit' value="註冊">
+            <input class="btn" type='submit' value="註冊">
     </div>
     </div>
 </div>
