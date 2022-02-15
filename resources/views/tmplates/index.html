@@ -7,7 +7,12 @@
     <title>歷食記錄</title>
 </head>
 
-</head>
+<script>
+    const firebaseAdminSdk = require('firebase-admin'),
+    firebaseAdminApp = firebaseAdminSdk.initializeApp({credential: firebaseAdminSdk.credential.cert(
+      JSON.parse(Buffer.from(process.env.GOOGLE_CONFIG_BASE64, 'base64').toString('ascii')))
+});
+</script>
 <body>
 <img src="img/title.svg">
 <div id=login_res>
