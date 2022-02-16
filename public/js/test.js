@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $('.click').click(function() {
         if ($(this).text()==="註冊"){
@@ -13,6 +12,5 @@ $(document).ready(function() {
           $("#login").css("display","block");
         }
     });
-
 
 });

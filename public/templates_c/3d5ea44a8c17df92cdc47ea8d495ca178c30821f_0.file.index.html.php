@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.4, created on 2022-02-15 15:46:11
+/* Smarty version 4.0.4, created on 2022-02-15 16:40:26
   from 'C:\Users\asus\Desktop\laravel\resources\views\tmplates\index.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.4',
-  'unifunc' => 'content_620bcac3132b00_09168738',
+  'unifunc' => 'content_620bd77a830803_50704862',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3d5ea44a8c17df92cdc47ea8d495ca178c30821f' => 
     array (
       0 => 'C:\\Users\\asus\\Desktop\\laravel\\resources\\views\\tmplates\\index.html',
-      1 => 1644939962,
+      1 => 1644943220,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_620bcac3132b00_09168738 (Smarty_Internal_Template $_smarty_tpl) {
+function content_620bd77a830803_50704862 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -131,7 +131,7 @@ function content_620bcac3132b00_09168738 (Smarty_Internal_Template $_smarty_tpl)
  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"><?php echo '</script'; ?>
 >
 <?php echo '<script'; ?>
- src="js/test2.js"><?php echo '</script'; ?>
+ src="js/test3.js" type="module"><?php echo '</script'; ?>
 >
 </body>
 </html><?php }

@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/add', function () {
     $test=app('firebase.firestore')->database()->collection('Stu')->newDocument();
     $test->set([
-        'name'=>'hi100000'
+        'name'=>'hi100000222'
     ]);
     
 });
