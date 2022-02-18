@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class testontroller extends Controller
+class Testontroller extends Controller
 {
-    
-    //
+    public function test(){
+      
+        
+
+    }
 }
