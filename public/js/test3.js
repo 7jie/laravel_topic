@@ -1,5 +1,8 @@
 import { db } from './test2.js'
-
+firebase.auth().then((user) => {
+  console.log('uuu');
+})
+/*
 db.collection('users')
     .add({
       first: 'Dez',
@@ -12,3 +15,4 @@ db.collection('users')
     .catch(function(error) {
       console.error('Error adding document: ', error)
     })
+*/

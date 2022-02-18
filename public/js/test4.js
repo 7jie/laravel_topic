@@ -1,5 +1,4 @@
-
- const firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyDU4SMG9hpVMear3YN1aPtV8ABFuu2yHjM",
     authDomain: "python-f1901.firebaseapp.com",
     projectId: "python-f1901",
@@ -9,9 +8,5 @@
     measurementId: "G-R9185X2PHH"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig)
-
-export const db=firebase.firestore()
-
-
-  
+firebase.initializeApp(firebaseConfig);
+const db=firebase.firestore();

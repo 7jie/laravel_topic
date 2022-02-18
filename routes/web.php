@@ -14,13 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('test2');
-    
-});
-Route::get('/add', function () {
-    $test=app('firebase.firestore')->database()->collection('Stu')->newDocument();
-    $test->set([
-        'name'=>'hi100000222'
-    ]);
+    return view('test_python');
     
 });
